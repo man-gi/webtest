@@ -1,5 +1,5 @@
 {
-  "name": "web2-nodejs",
+  "name": "heroku",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -7,18 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-n/Nodejs.git"
+    "start": "node main.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/web-n/Nodejs/issues"
-  },
-  "homepage": "https://github.com/web-n/Nodejs#readme",
   "dependencies": {
     "mysql": "^2.15.0",
     "sanitize-html": "^1.18.2"
